@@ -8,11 +8,17 @@ Bienvenid@ a la **Plataforma de Aprendizaje Interactivo**, una aplicación de co
 
 El proyecto consiste en un entorno de estudio modularizado que interactúa con el usuario a través de ventanas emergentes (`prompt` y `alert`) y muestra los resultados directamente en la consola del navegador. La aplicación está organizada en base a las cinco primeras lecciones del módulo de fundamentos:
 
-**Lección 1 (Introducción):** Interacción inicial mediante un saludo personalizado o genérico según el ingreso del usuario.
-**Lección 2 (Operaciones Básicas):** Ejecución de cálculos aritméticos simples controlados mediante estructuras condicionales (`if`, `else`) y sentencias de selección (`switch`), incluyendo validaciones para evitar la división por cero.
-**Lección 3 (Arreglos y Ciclos):** Recolección dinámica de datos en una lista usando bucles de repetición (`while`). Clasifica la información de forma mixta: los números pares mediante un ciclo tradicional (`for`) y los números impares aplicando métodos funcionales eficientes (`.filter()`).
-**Lección 4 (Funciones y Modularización):** Una calculadora avanzada compuesta por funciones independientes que reciben parámetros y retornan valores. Permite realizar operaciones complejas como potencias (`Math.pow`) y raíces cuadradas (`Math.sqrt`) optimizadas mediante la reutilización de código.
-**Lección 5 (Objetos y Métodos):** Un banco de datos estructurado mediante un arreglo de objetos. Cada objeto cuenta con sus propias propiedades y un método interno que utiliza el operador de contexto `this` para formatear y presentar tarjetas de estudio de forma aleatoria a través de un recorrido con el iterador `.forEach()`.
+- **Lección 1 (Introducción):** Interacción inicial mediante un saludo personalizado o genérico según el ingreso del usuario.
+<img width="1918" height="969" alt="leccion1" src="https://github.com/user-attachments/assets/7e185e82-799c-454f-8519-36d31027c5e6" />
+- **Lección 2 (Operaciones Básicas):** Ejecución de cálculos aritméticos simples controlados mediante estructuras condicionales (`if`, `else`) y sentencias de selección (`switch`), incluyendo validaciones para evitar la división por cero.
+<img width="1918" height="969" alt="leccion2" src="https://github.com/user-attachments/assets/7623a1b3-f254-412f-a65a-bca89a369abe" />
+- **Lección 3 (Arreglos y Ciclos):** Recolección dinámica de datos en una lista usando bucles de repetición (`while`). Clasifica la información de forma mixta: los números pares mediante un ciclo tradicional (`for`) y los números impares aplicando métodos funcionales eficientes (`.filter()`).
+<img width="1918" height="969" alt="leccion3" src="https://github.com/user-attachments/assets/b8b0e26d-3d92-4282-a260-9d8457a514fb" />
+- **Lección 4 (Funciones y Modularización):** Una calculadora avanzada compuesta por funciones independientes que reciben parámetros y retornan valores. Permite realizar operaciones complejas como potencias (`Math.pow`) y raíces cuadradas (`Math.sqrt`) optimizadas mediante la reutilización de código.
+<img width="1918" height="969" alt="leccion4" src="https://github.com/user-attachments/assets/31097b95-22a6-47a0-989e-c84783d75d66" />
+- **Lección 5 (Objetos y Métodos):** Un banco de datos estructurado mediante un arreglo de objetos. Cada objeto cuenta con sus propias propiedades y un método interno que utiliza el operador de contexto `this` para formatear y presentar tarjetas de estudio de forma aleatoria a través de un recorrido con el iterador `.forEach()`.
+<img width="1918" height="969" alt="leccion5" src="https://github.com/user-attachments/assets/37bfa2ab-4385-4e11-aaeb-4f67fce686a2" />
+
 
 
 ## 🕹️ Estructura y Funcionamiento del Menú Principal
@@ -27,6 +33,7 @@ Al interactuar con el menú, el sistema procesa las siguientes opciones:
 4.  **Opción 4 (Tarjetas de estudio):** Redirige a la leccion 5.
 5.  **Opción 5 (Salir):** Modifica el estado de la variable de control del bucle (`continuar = false`), rompiendo el ciclo y permitiendo una finalización limpia de la aplicación.
 
+<img width="1918" height="969" alt="menu" src="https://github.com/user-attachments/assets/f28240f8-51d4-415d-83c4-e3760f9a67e3" />
 
 ---
 
